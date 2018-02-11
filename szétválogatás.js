@@ -14,7 +14,7 @@ function szétválogatás (tomb) {
       k++;
     }
   }
-  return {bela: pozitivtomb, jozsi: negativtomb};
+  return {pozitiv: pozitivtomb, negativ: negativtomb};
 }
 let tomb = [-1, -2, -3, 5, 6, 7, 8, 9, 9, -34];
 console.log(szétválogatás(tomb));
