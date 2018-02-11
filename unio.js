@@ -13,10 +13,10 @@ k = n;
 
 for (j = 0; j <= m - 1; j++) {
   i = 0;
-  while (i < n && tombketto[j] != tombegy[i]) {
+  while (i < n && tombketto[j] !== tombegy[i]) {
     i++;
   }
-  if (i>=n) {
+  if (i >= n) {
     tombunio[k] = tombketto[j];
     k++;
   }
